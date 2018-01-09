@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1 {
+	color: rgba(0,0,255,0.5);
+	font-size: 1em;
+}
+
+p {
+	font-family: 'times', sans-serif;
+	border: 5px solid red;
+	padding: 1em;
+	background: yellow;
+	margin: 3em;
+	width: 1000px;
+	box-sizing: border-box;
+}
+
+ol {font-family: : 'helvetica', sans-serif;
+	border: 10px solid blue;
+	padding: 2em;
+	margin: 2em;
+	width: 500px;
+box-sizing: border-box;}
+}
+
+.italics {
+	font-style: italic;
+}
+
+#title {
+	font-size: 3em;
+}
