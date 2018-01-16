@@ -4,14 +4,14 @@ body {
   align-items: center;
   font-family: 'Old Standard TT', serif;
   font-weight:bold;
-  overflow: auto;
+  overflow:auto;
   position:absolute;
-  background-size:
   
 }
 
 .shapeline1{
 	position:relative;
+  align-content: center;
 }
 
 p.hline {
@@ -20,6 +20,9 @@ p.hline {
     border-width: 1.5px;
     position: relative;
     top: 410px;
+    left:0px;
+    width:1646px;
+
 }
 
 p.hline2 {
@@ -28,6 +31,7 @@ p.hline2 {
     border-width: 1.5px;
     position: relative;
     top: 610px;
+    left:0px;
 }
 
 .shape {
@@ -98,11 +102,11 @@ p.hline2 {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 300px;
-  margin-top: -355px;
+  margin-top: 240px;
   float: left;
   margin-right: 10px;
   margin-left: 100px;
-  position:relative;
+  position:absolute;
   left:-100px;
 }
 
@@ -113,11 +117,11 @@ p.hline2 {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 300px;
-  margin-top: -355px;
+  margin-top: 240px;
   float: left;
   margin-right: 10px;
-  margin-left: 100px;
-  position:relative;
+  margin-left: 600px;
+  position:absolute;
   left:-400px;
   mix-blend-mode: multiply;
 }
@@ -129,11 +133,11 @@ p.hline2 {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 300px;
-  margin-top: -355px;
+  margin-top: 240px;
   float: left;
   margin-right: 10px;
-  margin-left: 100px;
-  position:relative;
+  margin-left: 1125px;
+  position:absolute;
   left:-700px;
   mix-blend-mode: multiply;
 }
@@ -145,7 +149,7 @@ p.hline2 {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 300px;
-  margin-top: -355px;
+  margin-top: -315px;
   float: left;
   margin-right: 10px;
   margin-left: 100px;
@@ -162,7 +166,7 @@ p.hline2 {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 300px;
-  margin-top: -355px;
+  margin-top: -315px;
   float: left;
   margin-right: 10px;
   margin-left: 100px;
@@ -185,7 +189,7 @@ p.hline2 {
   margin-left: 100px;
   position:relative;
   left: -270px;
-  top: 380px;
+  top: 400px;
   mix-blend-mode: multiply;
   
 }
@@ -196,47 +200,11 @@ p.hline3 {
     border-width: 1.5px;
     position: relative;
     top: 800px;
-}
-.footer{
-	position: relative;
- 	right:540px;
- 	top:785px;
+    left:0px;
+    width:1646px;
+    margin-left: 0px;
 }
 
-.rectb{
-	height: 240px;
-  	width: 100%;
-  	background-color: black;
-  	border-radius: 0px;
-	margin-top: -355px;
-	float: left;
-	margin-left: 0px;
-	position:relative;
-	top: 500px;
-}
-.rectl{
-	height: 1400px;
-  	width: 200px;
-  	background-color: black;
-  	border-radius: 0px;
-  	margin top: 0px;
-  	margin-left: 0px;
-  	position: relative;
-  	bottom:500px;
-}
-
-.rectr{
-	height: 1400px;
-  	width: 200px;
-  	background-color: black;
-  	border-radius: 0px;
-  	margin top: 0px;
-  	margin-right: 0px;
-  	position: relative;
-  	bottom:2000px;
-  	left:1450px;
-
-}
 
 @keyframes rotate {
     0%   {background-color: red;}
@@ -246,17 +214,16 @@ p.hline3 {
 }
 
 
-footer{
+.footer{
+  position:absolute;
 	overflow: visible;
+  top:1200px;
+  left:625px;
 }
 
 
 
 
-
-body, html {
-  height: 100%;
-}
 
 
 
