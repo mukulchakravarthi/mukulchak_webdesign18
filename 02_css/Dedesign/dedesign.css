@@ -26,21 +26,21 @@ header {
 	text-decoration: none;
 }
 
-.homme {
+.homme, a{
 	color:white;
 	text-decoration: none;
 }
 
-.pubic {
+.pubic, a{
 	color:white;
 	text-decoration: none;
 
 }
-.politicks{
+.politicks, a{
 	color:white;
 	text-decoration: none;
 }
-.hof {
+.hof, a{
 	color:white;
 	text-decoration: none;
 }
