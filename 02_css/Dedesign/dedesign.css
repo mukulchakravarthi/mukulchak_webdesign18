@@ -1,11 +1,14 @@
 body {
 	background-color:gray;
+	
 	position:absolute;
 	overflow:auto;
 	left:0px;
 	margin:0px;
 
 }
+
+
 
 header {
 	background-color:black;
@@ -92,6 +95,40 @@ header {
     font-size: 13px;
     color:white;
 }
+
+#caco {
+	position:absolute;
+	
+	font-family: 'Didot';
+	font-size: 54px;
+	width:40px;
+	
+
+}
+
+.col1 {
+	margin-left: 10px;
+	margin-top: 160px;
+}
+
+.col2 {
+	position: absolute;
+	margin-left: 500px;
+	margin-top: -1960px;
+}
+
+.col3 {
+	position:absolute;
+	margin-left: 1000px;
+	margin-top:-1870px;
+}
+
+.col4 {
+	position:absolute;
+	margin-left: 1400px;
+	margin-top:-1870px;
+}
+
 
 #content {
 
@@ -243,6 +280,20 @@ header {
 	position:absolute;
 	top: 1650px;
 }
+
+#footpara {
+	position: absolute;
+	font-family: 'Didot';
+	color:black;
+	font-size: 54px;
+	top:1870px;
+	width:1700px;
+	margin-left: 0px;
+	left: 0px;
+
+}
+
+
 
 @keyframes centered {
     0%   {background-color:red; left:200px; top:200px;}
