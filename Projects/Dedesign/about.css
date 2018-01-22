@@ -1,7 +1,7 @@
 body {
 	background-color:black;
 	position:absolute;
-	overflow:hidden;
+	overflow:auto;
 	left:0px;
 	margin:0px;
 
