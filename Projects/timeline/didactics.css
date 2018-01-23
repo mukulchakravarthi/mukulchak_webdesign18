@@ -1,5 +1,5 @@
 body {
-	background-color: red;
+	background-color: black;
 	
 	position:absolute;
 	overflow:hidden;
@@ -16,22 +16,22 @@ body {
 
 .heading {
 	font-family: 'Helvetica', sans-serif;
-	background:black;
-	color:white;
+	background:white;
+	color:black;
 	width:700px;
 	padding:10px;	
 	
 }
 
 a {text-decoration: none;
-	color:white;
+	color:black;
 }
 .divline {
 	position:absolute;
 	height:879px;
 	width:860px;
 	margin-left:800px;
-	background:black;
+	background:gray;
 	margin-top: 0px;
 	top:-30px;
 }
@@ -59,7 +59,7 @@ a {text-decoration: none;
 	position:absolute;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 12px;
-	color:black;
+	color:gray;
 	top: 30px;
 
 }
@@ -74,12 +74,13 @@ a {text-decoration: none;
 	margin-left: 100px;
 	left:180px;
 	width:350px;
+	color:gray;
 	
 }
 
 #projdesc {
 	position: absolute;
-	margin-top: 400px;
+	margin-top: 500px;
 	font-size: 16px;
 	color:white;
 	width:560px;
@@ -105,7 +106,7 @@ a {text-decoration: none;
 	height:800px;
 	width:10px;
 	display: flex;
-	background-color: blue;
+	background-color: gray;
 	animation-name: movingbox;
 	position:absolute;
 	margin-top: 10px;
@@ -113,12 +114,14 @@ a {text-decoration: none;
 	animation-duration: 5s;
     animation-iteration-count: 10;
     display:inline-grid;
+    
+    -webkit-transform: rotate(-30deg);
 }
 
 @keyframes movingbox {
-    0%   {background-color:blue; left:0px; top:10px;}
-    50%  {background-color:blue; left:400px; top:10px;}
-    100%  {background-color:blue; left:800px; top:10px;}
+    0%   {background-color:red; left:0px; top:10px;}
+    50%  {background-color:red; left:400px; top:10px;}
+    100%  {background-color:red; left:800px; top:100px;}
 }
 
 #nextpage {
@@ -138,46 +141,46 @@ a {text-decoration: none;
 
 	.rect {
   position: absolute;
-  width: 20px;
-  height: 800px;
+  width: 600px;
+  height: 10px;
   margin-left: 900px;
-  margin-top: 200px;
+  margin-top: 600px;
+  
 }
 
 .timeout {
-  background: white;
+  background: green;
 }
 
 .anim-frame {
   top: 0px;
-  background: white;
+  background: blue;
 }
 
 .rect1 {
   position: absolute;
-  width: 20px;
+  width: 10px;
   height: 800px;
   margin-left: 900px;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .timeout2 {
-  background: white;
+  background: black;
 }
 
 .anim-frame2 {
   top: 0px;
-  background: white;
+  background: black;
 }
+
 #lastpage {
-  position: absolute;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 16px;
-  left:900px;
-  top:760px;
+	position: absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	left:900px;
+	top:760px;
 }
-
-
 
 
 

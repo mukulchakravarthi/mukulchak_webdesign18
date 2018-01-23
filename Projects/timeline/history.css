@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+
+body {
+  background-color: #4B0082;
+  
+  position:absolute;
+  overflow:hidden;
+  left:0px;
+  margin:0px;
+
+}
+
+.header {
+  position:absolute;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.heading {
+  font-family: 'Helvetica', sans-serif;
+  background:black;
+  color:white;
+  width:700px;
+  padding:10px; 
+  
+}
+
+a {text-decoration: none;
+  color:white;
+}
+.divline {
+  position:absolute;
+  height:879px;
+  width:860px;
+  margin-left:800px;
+  background:black;
+  margin-top: 0px;
+  top:-30px;
+}
+
+#content {
+  position:absolute;
+  font-family: 'Helvetica', sans-serif;
+  
+  width:450px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+#conthead {
+
+  position:absolute;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color:white;
+
+}
+
+#conthead p {
+
+  position:absolute;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+  color:lightgray;
+  top: 30px;
+
+}
+
+#body {
+  position:absolute;
+  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 100px;
+  left:180px;
+  width:355px;
+  color:lightgray;
+  
+}
+
+#projdesc {
+  position: absolute;
+  margin-top: 420px;
+  font-size: 16px;
+  color:white;
+  width:570px;
+  
+}
+
+.img {
+  position: absolute;
+  margin-top: 100px;
+}
+.img p {
+  width:255px;
+  font-family: 'Helvetica', serif;
+  font-size: 10px;
+  color:lightgray;
+}
+
+#nextpage {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 750px;
+  left:600px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color:white;
+  width:100px;
+  padding:10px;
+  animation-name: movingtext;
+  animation-duration: 10s;
+  animation-iteration-count: 20;
+}
+
+#loader {
+  position: absolute;
+  left:1075px;
+  top:150px;
+  border: 1px solid white;
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+#loader > div {
+  background: white;
+  width: 10px;
+  height: 400px;
+  transform-origin: top center;
+  animation: load 2.5s infinite linear;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+    margin-left: -5px;
+    margin-top: 0;
+    transform-origin: top center;
+  }
+  50% {
+    margin-left: -5px;
+    margin-top: 95px;
+    transform-origin: top center;
+    transform: rotate(-90deg);
+  }
+  75% {
+    margin-left: 95px;
+    margin-top: 0;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+#lastpage {
+  position: absolute;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  left:900px;
+  top:760px;
+}
+

@@ -1,5 +1,5 @@
 body {
-	background-color: red;
+	background-color: black;
 	
 	position:absolute;
 	overflow:hidden;
@@ -59,7 +59,7 @@ a {text-decoration: none;
 	position:absolute;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 12px;
-	color:black;
+	color:gray;
 	top: 30px;
 
 }
@@ -74,12 +74,13 @@ a {text-decoration: none;
 	margin-left: 100px;
 	left:180px;
 	width:350px;
+	color:gray;
 	
 }
 
 #projdesc {
 	position: absolute;
-	margin-top: 400px;
+	margin-top: 500px;
 	font-size: 16px;
 	color:white;
 	width:560px;
@@ -102,10 +103,10 @@ a {text-decoration: none;
 
 .element{
 	float:left;
-	height:800px;
-	width:10px;
+	height:100px;
+	width:150px;
 	display: flex;
-	background-color: blue;
+	background-color: gray;
 	animation-name: movingbox;
 	position:absolute;
 	margin-top: 10px;
@@ -113,12 +114,13 @@ a {text-decoration: none;
 	animation-duration: 5s;
     animation-iteration-count: 10;
     display:inline-grid;
+    opacity: 0.5;
 }
 
 @keyframes movingbox {
-    0%   {background-color:blue; left:0px; top:10px;}
-    50%  {background-color:blue; left:400px; top:10px;}
-    100%  {background-color:blue; left:800px; top:10px;}
+    0%   {background-color:white; left:0px; top:10px;}
+    50%  {background-color:white; left:400px; top:400px;}
+    100%  {background-color:white; left:800px; top:800px;}
 }
 
 #nextpage {
@@ -138,10 +140,11 @@ a {text-decoration: none;
 
 	.rect {
   position: absolute;
-  width: 20px;
-  height: 800px;
+  width: 200px;
+  height: 100px;
   margin-left: 900px;
   margin-top: 200px;
+  opacity:0.7;
 }
 
 .timeout {
@@ -155,8 +158,8 @@ a {text-decoration: none;
 
 .rect1 {
   position: absolute;
-  width: 20px;
-  height: 800px;
+  width: 50px;
+  height: 200px;
   margin-left: 900px;
   margin-top: 200px;
 }
@@ -169,15 +172,14 @@ a {text-decoration: none;
   top: 0px;
   background: white;
 }
+
 #lastpage {
-  position: absolute;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 16px;
-  left:900px;
-  top:760px;
+	position: absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	left:900px;
+	top:760px;
 }
-
-
 
 
 
