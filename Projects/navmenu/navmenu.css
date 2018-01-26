@@ -146,14 +146,14 @@ font-weight: bold;
 
     #image {
               height: auto;
-              display: none;
+              
               position: absolute;
-              left: 20px;
-              right: 0;
+              
+              
     }
 
     #square{
-              
+
     }
 
 
