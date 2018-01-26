@@ -1,10 +1,22 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+// Create the dropdown base
+$("<select />").appendTo("nav");
 
+// Create default option "Go to..."
+$("<option />", {
+   "selected": "selected",
+   "value"   : "",
+   "text"    : "Go to..."
+}).appendTo("nav select");
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+// Populate dropdown with menu items
+$("nav a").each(function() {
+ var el = $(this);
+ $("<option />", {
+     "value"   : el.attr("href"),
+     "text"    : el.text()
+ }).appendTo("nav select");
+});
+
+$("nav select").change(function() {
+  window.location = $(this).find("option:selected").val();
+});
