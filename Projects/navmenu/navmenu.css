@@ -145,10 +145,9 @@ font-weight: bold;
     }
 
     #image {
-              
-              
-              
-    }
+          height:50px;
+          display: all;    
+          }
 
     #square{
 
