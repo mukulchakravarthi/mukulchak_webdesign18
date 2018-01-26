@@ -4,6 +4,36 @@ body{
   color:white;
 }
 
+.head{
+  font-family: "helvetica", sans-serif;
+  position:relative;
+  margin:20px;
+  z-index: 3;
+}
+
+nav{
+  position:relative;
+  top:100px;
+  font-family: "helvetica", sans-serif;
+  left:-20px;
+}
+
+.img{
+  position:absolute;
+  top:0px;
+  left:-220px;
+
+}
+nav li a{
+  color:white;
+  text-decoration: none;  
+
+
+}
+li{
+  list-style: none;
+}
+
 nav select {
   display: none;
 }
