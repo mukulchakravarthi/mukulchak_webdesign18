@@ -105,6 +105,8 @@ font-weight: bold;
     #nav
     {
         position: relative;
+        font-family: "helvetica", sans-serif;
+        font-weight: bold;
     }
         #nav > a
         {
@@ -122,7 +124,7 @@ font-weight: bold;
         height: auto;
         display: none;
         position: absolute;
-        left: 0;
+        left: 20px;
         right: 0;
     }
         #nav:target > ul
@@ -141,5 +143,20 @@ font-weight: bold;
     {
         position: static;
     }
+
+    #image {
+              height: auto;
+              display: none;
+              position: absolute;
+              left: 20px;
+              right: 0;
+    }
+
+    #square{
+              
+    }
+
+
 }
+
 
