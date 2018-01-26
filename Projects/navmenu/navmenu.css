@@ -5,7 +5,7 @@ body{
 }
 
 .head{
-  font-family: "helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   position:relative;
   margin:20px;
   z-index: 3;
@@ -14,7 +14,7 @@ body{
 nav{
   position:relative;
   top:100px;
-  font-family: "helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   left:-20px;
 }
 
