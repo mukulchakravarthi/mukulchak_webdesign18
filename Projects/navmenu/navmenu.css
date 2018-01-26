@@ -7,7 +7,7 @@ body{
 .heading {
   color:white;
   font-family: "Helvetica", sans-serif;
-  position:fixed;
+  position:relative;
   margin-left: 30px;
   top:-30px;
   width:1000px;
@@ -18,9 +18,9 @@ body{
 .topnav{
   color:white;
   font-family: "Helvetica", sans-serif;
-  position:fixed;
+  position:relative;
   text-decoration: none;
-  top:150px;
+  top:-60px;
   margin-left: 30px;
 
 }
