@@ -11,8 +11,64 @@ section{
     display: flex;
 }
 
+header{
+    position:absolute;
+    width:100px;
+    height:auto;
+    font-family: "Cinzel", serif;
+    font-weight: normal;
+    list-style: none;
+    width:400px;
+}
+
+#line{
+    height:1px;
+    width:1665px;
+    position:absolute;
+    background-color: lightgray;
+    top:90px;
+    left:-630px;
+}
+#line2{
+    height:1px;
+    width:1665px;
+    position:absolute;
+    background-color: lightgray;
+    top:130px;
+    left:-630px;
+}
+.masthead{
+    text-align: center;
+
+}
+.Mainheader{
+    left:630px;
+}
+a{
+    display:inline;
+}
+.nav {
+    position:absolute;
+    top:100px;
+    float:left;
+    font-family: "helvetica", sans-serif;
+    list-style: none;
+    left:150px;
+}
+
+.nav li{
+    display:inline;
+    padding:20px;
+    font-size: 14px;
+    font-weight:bold;
+
+}
+
 .hero{
     height: 500px;
+    top:150px;
+    position: relative;
+   
 }
 
 .text, .feature-img{
@@ -34,10 +90,19 @@ section{
 
 .info{
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
 }
 
 h1{
     text-transform: uppercase;
+    font-family: "Cinzel", serif;
+    font-size:40px;
+}
+.byline{
+    font-family:"helvetica", sans-serif;
+    font-weight:bold;
+    font-size:12px;
 }
 
 .subtitle{
@@ -54,6 +119,9 @@ h1{
     width: 80%;
     margin: auto;
     flex-wrap: wrap;
+    position: absolute;
+    top:700px;
+    left:170px;
 }
 article{
     width: 50%;
@@ -71,9 +139,6 @@ article{
 
 }
 
-
-
-
 img{
     width: 100%;
 }
@@ -85,6 +150,19 @@ img{
 
 .category{
     color: red;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
+}
+h3{
+    
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+}
+.details{
+    font-family: "helvetica",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .date{
