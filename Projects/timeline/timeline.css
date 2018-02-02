@@ -35,7 +35,7 @@ a {text-decoration: none;
 
 .divline {
 	position:absolute;
-	height:879px;
+	height:1200px;
 	width:860px;
 	margin-left:800px;
 	background:black;
@@ -99,8 +99,9 @@ a {text-decoration: none;
 	background:white;
 	margin-top: 50px;
 	animation-name: movingbox;
-    animation-duration: 15s;
-    animation-iteration-count: 10;
+    animation-duration: 200s;
+    animation-iteration-count: 4;
+    animation-timing-function:ease-in-out;
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     font-size: 16px;

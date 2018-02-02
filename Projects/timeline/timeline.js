@@ -9,7 +9,7 @@ function startSetTimeoutAnimation() {
   var refreshRate = 1000 / 60;
   var maxXPosition = 400;
   var rect = document.getElementById('rect0');
-  var speedX = 2;
+  var speedX = 6;
   var positionX = 0;
 
   window.setInterval(function () {
