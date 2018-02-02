@@ -39,7 +39,7 @@ body{
   margin:10px;
   top:95px;
   z-index: 3;
-  margin-left: 0px;
+  margin-left: -10px;
 }
 
 #nav li{
