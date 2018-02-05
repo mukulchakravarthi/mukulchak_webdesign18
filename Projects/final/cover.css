@@ -27,9 +27,6 @@ h1{
 }
 
 
-
-
-		
 .layer {
   position: absolute;
   width: 100%;
@@ -37,19 +34,19 @@ h1{
   animation-fill-mode: both;
 }
 .layer.top {
-  -webkit-animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation-fill-mode: both;
 }
 .layer.bottom {
-  -webkit-animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation-fill-mode: both;
 }
 
 .n {
-  -webkit-animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
 }
 
 @-webkit-keyframes n {
