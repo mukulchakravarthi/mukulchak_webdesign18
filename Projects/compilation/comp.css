@@ -31,7 +31,7 @@ body{
 #subhead h4{
 	position: absolute;
 	margin-left:20px;
-	top:100px;
+	top:140px;
 	padding:2px;
 	color:gray;
 	font-weight: normal;
@@ -100,6 +100,7 @@ body{
 	left:1350px;
 	top:130px;
 	display:inline-flex;
+	line-height: 30px;
 	
 }
 #presentation h2{
@@ -116,6 +117,7 @@ body{
 	position: absolute;
 	left:1370px;
 	top:250px;
+	font-weight: bold;
 }
 
 #projects{
@@ -124,6 +126,7 @@ body{
 	left:450px;
 	top:250px;
 	font-weight: bold;
+	line-height: 30px;
 }
 
 #plist a{
@@ -138,6 +141,7 @@ body{
 	left:900px;
 	top:250px;
 	font-weight: bold;
+	line-height: 30px;
 }
 
 #elist a{
@@ -154,6 +158,30 @@ body{
 	left:1413px;
 	top:300px;
 	font-weight: bold;
+}
+
+
+#plist a:hover {
+	background:red;
+}
+
+#preslink a:hover {
+	background:red;
+}
+
+#presweb a:hover {
+	background: red;
+	padding:2px;
+}
+
+#elist a:hover{
+	background: red;
+}
+
+#presweb a{
+	position: absolute;
+	top:285px;
+	
 }
 
 

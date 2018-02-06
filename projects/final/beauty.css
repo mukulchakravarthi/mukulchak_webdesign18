@@ -17,6 +17,19 @@ body {
   font-family:'helvetica', sans-serif;
   overflow: auto;
 }
+.homehead a{
+  position: absolute;
+  color:white;
+  opacity: 0.3;
+  top:410px;
+  left:-400px;
+  width:900px;
+  transform:rotate(-90deg);
+  font-size: 5vw;
+  z-index: 3;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 .container {
   position: relative;
@@ -132,12 +145,11 @@ a{
   height: 25px;
   position: absolute;
   margin-top: 10px;
-  z-index: 2;
+  z-index: 4;
   top:50px;
-  left:20px;
+  left:35px;
 
 }
-
 .menu-toggle,
 .menu-toggle:before,
 .menu-toggle:after {
@@ -187,6 +199,7 @@ a{
   position:absolute;
   top:10px;
   left:20px;
+  z-index:4;
 }
 
 .test li{
@@ -224,7 +237,7 @@ a{
   height:1px;
   position: absolute;
   background: white;
-  top:70%;
+  top:72%;
   left:12%;
 }
 .contbody{
@@ -240,23 +253,37 @@ a{
 .pictures1{
   position: absolute;
   top:130%;
-  left:10%;
+  left:25%;
 }
 .pictures2{
   position: absolute;
-  top:380%;
-  left:24%;
+  top:330%;
+  left:25%;
+  padding-bottom: 100px;
 }
 
 .pictures1 p{
   font-family: "helvetica", sans-serif;
-  font-size: 16px;
-  width:1000px;
+  font-size: 14px;
+  width:300px;
+  position: absolute;
+  left:-340px;
+  top:30px;
+  color:white;
+  font-weight:lighter;
+  line-height: 20px;
 }
 
 .pictures2 p{
   font-family: "helvetica", sans-serif;
-  font-size: 16px;
-  width:600px; 
+  font-size: 14px;
+  width:800px; 
   padding-bottom: 150px;
+  width:300px;
+  position: absolute;
+  left:-340px;
+  top:30px;
+  color:white;
+  font-weight:lighter;
+  line-height: 20px;
 }

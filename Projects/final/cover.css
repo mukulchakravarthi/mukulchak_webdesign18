@@ -1,5 +1,5 @@
 body{
-	background:white;
+	background:black;
 	overflow:hidden;
 	font-family:"helvetica",sans-serif;
 	color:black;
@@ -15,16 +15,11 @@ p{
 h1{
 	position:absolute;
 	margin:5px;
-  top:70px;
+  top:40px;
   font-size: 2vw;
+  color:white;
 }
-#heading p{
-  font-size:5vw;
-  font-family: "helvetica", sans-serif;
-  font-weight:bold;
-  position: absolute;
-  top:10px;
-}
+
 
 
 .layer {
@@ -32,21 +27,25 @@ h1{
   width: 100%;
   height: 100%;
   animation-fill-mode: both;
+  
 }
 .layer.top {
   -webkit-animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation: 3.7s top cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation-fill-mode: both;
+
 }
 .layer.bottom {
   -webkit-animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation: 3.7s bottom cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation-fill-mode: both;
+          
 }
 
 .n {
   -webkit-animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
           animation: 3.7s "n" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes n {
@@ -87,8 +86,9 @@ h1{
   }
 }
 .s {
-  -webkit-animation: 3.7s "s" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "s" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "s" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "s" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes s {
@@ -129,8 +129,9 @@ h1{
   }
 }
 .e {
-  -webkit-animation: 3.7s "e" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "e" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "e" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "e" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes e {
@@ -171,8 +172,9 @@ h1{
   }
 }
 .w {
-  -webkit-animation: 3.7s "w" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "w" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "w" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "w" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes w {
@@ -213,8 +215,9 @@ h1{
   }
 }
 .ne {
-  -webkit-animation: 3.7s "ne" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "ne" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "ne" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "ne" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes ne {
@@ -255,8 +258,9 @@ h1{
   }
 }
 .se {
-  -webkit-animation: 3.7s "se" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "se" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "se" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "se" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes se {
@@ -297,8 +301,9 @@ h1{
   }
 }
 .sw {
-  -webkit-animation: 3.7s "sw" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "sw" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "sw" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "sw" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes sw {
@@ -339,8 +344,9 @@ h1{
   }
 }
 .nw {
-  -webkit-animation: 3.7s "nw" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
-          animation: 3.7s "nw" cubic-bezier(0.645, 0.045, 0.355, 1) 0;
+  -webkit-animation: 3.7s "nw" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          animation: 3.7s "nw" cubic-bezier(0.645, 0.045, 0.355, 1) 2;
+          border:1px solid white;
 }
 
 @-webkit-keyframes nw {
@@ -384,14 +390,14 @@ h1{
   position: absolute;
   top: 47%;
   left: 35%;
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
   background: linear-gradient(#000080, #ff00ff);
   -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
           transform: matrix(0.9, 0.5, 0, 1, 0, 0);
           animation-fill-mode: both;
-          border: 1px solid black;
+          border: 1px solid white;
 }
 
 
@@ -422,6 +428,7 @@ h1{
     left:-15px;
     font-family: "helvetica", sans-serif;
     background:black;
+    border:1px solid white;
     font-size:17px;
     font-weight: bold;
     width:113px;
@@ -522,12 +529,17 @@ p{
   font-weight: bold;
 }
 #heading p{
-  color:lightgray;
+  color:white;
   position: absolute;
-  top:360px;
-  left:-420px;
-  width:900px;
+  top:370px;
+  left:-480px;
+  width:1000px;
   transform:rotate(-90deg);
+  font-size:5.2vw;
+  font-family: "helvetica", sans-serif;
+  font-weight:bold;
+
+}
 }
 
 .footer{
@@ -559,9 +571,9 @@ p{
   .bar{
     position:absolute;
     width:1700px;
-    height:40px;
-    background: black; 
-    top:890px;  
+    height:20px;
+    background: red; 
+    top:930px;  
     left:-20px;
     margin-left: 0px; 
   }  
@@ -595,17 +607,11 @@ p{
   left:750px;
 }
 
-.navbox {
-  position: absolute;
-  height:20px;
-  width:400px;
-  top:135px;
-  
-}
+
 
 a{
   text-align: left;
-  color:black;
+  color:white;
   font-size:24px;
   }
 
@@ -622,14 +628,14 @@ a{
   width: 30px;
   height: 25px;
   position: relative;
-  top:70px;
-  left:32px;
+  top:80px;
+  left:100px;
 }
 
 .menu-toggle,
 .menu-toggle:before,
 .menu-toggle:after {
-  border-top: 3px solid #000;
+  border-top: 3px solid white;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
@@ -679,17 +685,23 @@ a{
   top:180px;
   font-family: "helvetica", sans-serif;
   font-weight: bold;
-  background: linear-gradient(#00ced1, #ffff00);
+  background: red;
   width:160px;
   padding:5px;
   font-size: 24px;
+  list-style: none;
 }
 
 .test a{
   list-style: none;
   text-decoration: none;
+  color:black;
 }
 .test a:hover {
+    background: white;
+    }
+
+  .authorlist a:hover {
     background: red;
     }
 
@@ -700,11 +712,16 @@ a{
   top:0px;
 }
 
-.authorlist li{
+.authorlist li a{
   list-style: none;
   font-weight: bold;
   font-size: 4.2vw;
   line-height: 56PX;
+  text-decoration: none;
+}
+
+.authorlist li{
+  list-style: none;
 }
 
 .button{
@@ -714,39 +731,39 @@ a{
 
 .nw p:hover {
     background: red;
-    width:200px;
+    
 }
 .w p:hover {
     background: red;
-    width:200px;
+    
 }
 .n p:hover {
     background: red;
-    width:200px;
+   
 }
 .ne p:hover {
     background: red;
-    width:200px;
+    
 }
 .cube p:hover {
     background: red;
-    width:200px;
+    
 }
 .sw p:hover {
     background: red;
-    width:200px;
+    
 }
 .s p:hover {
     background: red;
-    width:200px;
+    
 }
 .e p:hover {
     background: red;
-    width:200px;
+    
 }
 .se p:hover {
     background: red;
-    width:200px;
+    
 }
 
 
