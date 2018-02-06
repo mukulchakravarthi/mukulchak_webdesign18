@@ -1,0 +1,235 @@
+body {
+	background-color: gray;
+	
+	position:absolute;
+	overflow:hidden;
+	left:0px;
+	margin:0px;
+
+}
+
+.header {
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.heading {
+	font-family: 'Helvetica', sans-serif;
+	background:black;
+	color:gray;
+	width:700px;
+	padding:10px;	
+	
+}
+
+a {text-decoration: none;
+	color:white;
+}
+.divline {
+	position:absolute;
+	height:1200px;
+	width:860px;
+	margin-left:800px;
+	background:black;
+	margin-top: 0px;
+	top:-30px;
+}
+
+#content {
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	
+	width:450px;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+#conthead {
+
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color:black;
+
+}
+
+#conthead p {
+
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 12px;
+	color:white;
+	top: 30px;
+
+}
+
+
+
+
+
+#body {
+	position:absolute;
+	font-size: 14px;
+	margin-top: 80px;
+	margin-left: 100px;
+	left:180px;
+	width:350px;
+	
+}
+
+#projdesc {
+	position: absolute;
+	margin-top: 400px;
+	font-size: 16px;
+	color:white;
+	width:560px;
+	
+}
+
+.img {
+	position: absolute;
+	margin-top: 100px;
+}
+.img p {
+	width:255px;
+	font-family: 'Helvetica', serif;
+	font-size: 10px;
+	color:white;
+}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+  	animation: topple 1.5s ease-in 1 alternate;
+  	animation-fill-mode: forwards;
+  	position: relative;
+  	
+}
+
+.reveal{
+	display: block;
+}
+
+.elementcontainer .element {
+  
+  list-style: none;
+  transform: rotate(-90deg);
+  width: 500px;
+  height: 500px;
+  top:150px;
+  left:10px;
+ 
+  margin-left: 800px;	
+  color: gray;
+  
+  
+  
+  
+  animation: topple 1.5s ease-in 1 alternate;
+  animation-iteration-count: 30;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+.elementcontainer .element:nth-child(1) {
+  animation-delay: .75s;
+  z-index: 5;
+}
+.elementcontainer .element:nth-child(2) {
+  animation-delay: 1.33s;
+  z-index: 4;
+}
+.elementcontainer .element:nth-child(3) {
+  animation-delay: 1.90s;
+  z-index: 3;
+}
+.elementcontainer .element:nth-child(4) {
+  animation-delay: 2.50s;
+  z-index: 2;
+}
+
+@keyframes topple {
+  0% {
+    
+    color: gray;
+    background-color: white;
+  }
+  4% {
+   
+    color: gray;
+    transform: rotate(-90deg);
+    box-shadow: 0 0 1em black;
+  }
+  42% {
+    margin-left: 800px;
+    margin-right: 100px;
+    box-shadow: none;
+  }
+  100% {
+    transform: rotate(0deg);
+    color: gray;
+    background-color: white;
+    margin-left: 600px	;
+    margin-bottom: .25em;
+  }
+}
+
+
+#footnote {
+	height:10px;
+	width:700px;
+	
+	background-color: red;
+	
+	animation-name: movingbox;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 100px;
+	 animation-duration: 5s;
+    animation-iteration-count: 10;
+}
+
+@keyframes movingbox {
+    0%   {background-color:red; left:0px; top:100px;}
+    50%  {background-color:red; left:0px; top:370px;}
+    100%  {background-color:red; left:0px; top:780px;}
+}
+
+#nextpage {
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 750px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color:white;
+	width:100px;
+	padding:10px;
+	left:400px;
+	animation-name: movingtext;
+	animation-duration: 10s;
+	animation-iteration-count: 20;
+
+}
+
+@keyframes movingtext {
+    0%   {left:600px; top:0px;}
+    
+    100%  {left:600px; top:0px;}
+}
+
+#lastpage {
+	position: absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	left:900px;
+	top:760px;
+}
+
+
+
+
+

@@ -1,0 +1,193 @@
+body {
+	background-color: #FFA500;
+	
+	position:absolute;
+	overflow:hidden;
+	left:0px;
+	margin:0px;
+
+}
+
+.header {
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.heading {
+	font-family: 'Helvetica', sans-serif;
+	background:black;
+	color:white;
+	width:700px;
+	padding:10px;	
+	
+}
+
+a {text-decoration: none;
+	color:white;
+}
+
+.subhead {
+	font-family: 'Archivo Narrow', sans-serif;
+	line-height: 0px;
+	margin-left:15px;
+}
+
+.divline {
+	position:absolute;
+	height:1200px;
+	width:860px;
+	margin-left:800px;
+	background:black;
+	margin-top: 0px;
+	top:-30px;
+}
+
+#content {
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	
+	width:450px;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+#conthead {
+
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+
+}
+
+#body {
+	position:absolute;
+	font-size: 14px;
+	margin-top: 80px;
+	margin-left: 100px;
+	
+}
+
+#projdesc {
+	position: absolute;
+	margin-top:400px;
+	font-size: 15px;
+	color:white;
+	
+}
+
+.details {
+	position: absolute;
+	margin-top: 650px;
+	margin-left: 300px;
+}
+.footnote {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 12px;
+	width:500px;
+	background:#FF0000;
+	
+	-webkit-transform: rotate(-30deg);
+
+}
+
+#movingbox {
+	position: absolute;
+	margin-left: 900px;
+	height:150px;
+	width:150px;
+	background:white;
+	margin-top: 50px;
+	animation-name: movingbox;
+    animation-duration: 200s;
+    animation-iteration-count: 4;
+    animation-timing-function:ease-in-out;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+#demo {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 0px;
+	height:200px;
+	width:400px;
+	background-color: black;
+	color:white;
+}
+
+.button {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 600px;
+	width:80px;
+
+}
+
+
+#movingbox a{
+	position: absolute;
+	left: 40px;
+	top:60px;
+	text-decoration: none;
+	color:black;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+.rect {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  margin-left: 900px;
+  margin-top: 200px;
+}
+
+.timeout {
+  background: red;
+}
+
+.anim-frame {
+  top: 100px;
+  background: gray;
+}
+
+.rect1 {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  margin-left: 900px;
+  margin-top: 600px;
+}
+
+.timeout2 {
+  background: blue;
+}
+
+.anim-frame2 {
+  top: 100px;
+  background: gray;
+}
+
+
+
+@keyframes movingbox {
+    0%   {background-color:white; left:0px; top:0px;}
+    10%  {background-color:white; left:600px; top:50px;}
+    20%  {background-color:white; left:10px; top:100px;}
+    30%  {background-color:white; left:600px; top:200px;}
+    40%  {background-color:white; left:10px; top:300px;}
+    50%  {background-color:white; left:600px; top:400px;}
+    60%  {background-color:white; left:10px; top:500px;}
+    70%  {background-color:white; left:600px; top:600px;}
+    80%  {background-color:white; left:10px; top:600px;}
+    90%  {background-color:white; left:600px; top:600px;}
+    100% {background-color:white; left:0px; top:0px;}
+}
+
+
+
+
+

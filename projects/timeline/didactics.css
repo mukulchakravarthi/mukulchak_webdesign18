@@ -1,0 +1,189 @@
+body {
+	background-color: black;
+	
+	position:absolute;
+	overflow:hidden;
+	left:0px;
+	margin:0px;
+
+}
+
+.header {
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.heading {
+	font-family: 'Helvetica', sans-serif;
+	background:white;
+	color:black;
+	width:700px;
+	padding:10px;	
+	
+}
+
+a {text-decoration: none;
+	color:black;
+}
+.divline {
+	position:absolute;
+	height:1200px;
+	width:860px;
+	margin-left:800px;
+	background:gray;
+	margin-top: 0px;
+	top:-30px;
+}
+
+#content {
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	
+	width:450px;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+#conthead {
+
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color:white;
+
+}
+
+#conthead p {
+
+	position:absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 12px;
+	color:gray;
+	top: 30px;
+
+}
+
+
+
+
+#body {
+	position:absolute;
+	font-size: 14px;
+	margin-top: 80px;
+	margin-left: 100px;
+	left:180px;
+	width:350px;
+	color:gray;
+	
+}
+
+#projdesc {
+	position: absolute;
+	margin-top: 500px;
+	font-size: 16px;
+	color:white;
+	width:560px;
+	
+}
+
+.img {
+	position: absolute;
+	margin-top: 100px;
+}
+.img p {
+	width:255px;
+	font-family: 'Helvetica', serif;
+	font-size: 10px;
+	color:white;
+}
+
+
+
+
+.element{
+	float:left;
+	height:800px;
+	width:10px;
+	display: flex;
+	background-color: gray;
+	animation-name: movingbox;
+	position:absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	animation-duration: 5s;
+    animation-iteration-count: 10;
+    display:inline-grid;
+    
+    -webkit-transform: rotate(-30deg);
+}
+
+@keyframes movingbox {
+    0%   {background-color:red; left:0px; top:10px;}
+    50%  {background-color:red; left:400px; top:10px;}
+    100%  {background-color:red; left:800px; top:100px;}
+}
+
+#nextpage {
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 750px;
+	left:600px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color:white;
+	width:100px;
+	padding:10px;
+	animation-name: movingtext;
+	animation-duration: 10s;
+	animation-iteration-count: 20;
+}
+
+	.rect {
+  position: absolute;
+  width: 600px;
+  height: 10px;
+  margin-left: 900px;
+  margin-top: 600px;
+  
+}
+
+.timeout {
+  background: green;
+}
+
+.anim-frame {
+  top: 0px;
+  background: blue;
+}
+
+.rect1 {
+  position: absolute;
+  width: 10px;
+  height: 800px;
+  margin-left: 900px;
+  margin-top: 50px;
+}
+
+.timeout2 {
+  background: black;
+}
+
+.anim-frame2 {
+  top: 0px;
+  background: black;
+}
+
+#lastpage {
+	position: absolute;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	left:900px;
+	top:760px;
+}
+
+
+
+
+
+
