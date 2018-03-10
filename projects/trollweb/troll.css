@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+}
+body, button {
+  font-family: 'helvetica', sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+    
+.playground {
+  position: fixed;
+  top: 0;
+  left: 340px;
+  bottom: 0;
+  right: 0;
+  border: 8px solid black;
+}
+    
+.margin {
+  margin: 10px;
+  width: 300px;
+}
+    
+#filterButtons {
+  width: 300px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  margin-left: -20px;
+}
+    
+button {
+  padding: 3px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  color: white;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 5px #27496d;
+}
+button:hover,
+button.hover {
+  background-color: #417cb8
+}
+button:active,
+button.active {
+  background-color: #417cb8;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+}    
+    
+button:disabled,
+button.disabled {
+  background-color: darkgrey;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+}
+.photo {
+  box-shadow: 3px 3px 3px #888888;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+  padding: 12px;
+  background-color: white;
+  cursor: move;   
+  transition:all 0.5s;
+}
+
+.0000photo:hover {
+  position: absolute;
+  -webkit-transform: translateY(-1px) translateX(-1px) rotate(0deg) scale(1.5);
+  z-index: 999;
+  box-shadow: 15px 15px 30px #666;
+}
+
