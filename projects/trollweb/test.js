@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta content="ie=edge" http-equiv="x-ua-compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow" rel="stylesheet">
-  <title>Troll</title>
-  <link href="troll.css" rel="stylesheet" type="text/css">
-  
-</head>
-
-  <body>
-
-    <video id="video" width="320" height="240" class="margin"></video>
-  <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
-  <div id="stack" class="playground" style="background-color: black;">
-  </div>
-  <div class="margin">
-    <p>
-      <div id="filterButtons"></div>
-    </p>
-    <ol type="1">
-      <li><button id="startButton">Start webcam</button></li> 
-      <li><button id="photoButton">Take photo</button></li>
-      <li id="beCreative">Experiment with different filters. Take more photos. Drag them around.</li>
-    </ol>
-
-  </div>
-  <script type="text/javascript" src="test.js"></script>
-
-<!--   <script>
-    
-  (function() {
+(function() {
     // A button for each filter will be created dynamically
     var filters = [ { 
       name: "Reset",
@@ -70,7 +37,7 @@
       navigator.webkitGetUserMedia ||
       navigator.mozGetUserMedia ||
       navigator.msGetUserMedia);
-    
+		
     if (navigator.getUserMedia) {
       function gotStream(stream) {
         if (navigator.mozGetUserMedia) {
@@ -153,7 +120,7 @@
       }
       
       document.getElementById("startButton").addEventListener('click', start);
-      document.getElementById("photoButton").addEventListener('click', takePhoto);              
+      document.getElementById("photoButton").addEventListener('click', takePhoto);      				
 
       var container = document.body;
       container.addEventListener('drop', drop, false);
@@ -210,6 +177,3 @@
       alert("Sorry, you can't capture video from your webcam in this web browser. Try the latest desktop version of Firefox, Chrome or Opera.");
     }
   })();
-  </script> -->
-</body>
-</html>
