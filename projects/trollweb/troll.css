@@ -68,6 +68,7 @@ button.disabled {
   background-color: white;
   cursor: move;   
   transition:all 0.5s;
+  z-index: 999;
 }
 
 .0000photo:hover {
