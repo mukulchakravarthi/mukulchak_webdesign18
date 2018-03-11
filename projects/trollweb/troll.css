@@ -86,8 +86,8 @@ button.active {
     
 button:disabled,
 button.disabled {
-  background-color: darkgrey;
-  box-shadow: 0 3px #27496d;
+  background-color: blue;
+  
   transform: translateY(2px) translateX(1px);
 }
 
@@ -117,6 +117,5 @@ button.disabled {
   position: absolute;
   -webkit-transform: translateY(0px) translateX(0px) rotate(0deg) scale(1.5);
   z-index: 999;
-  box-shadow: 15px 15px 30px #666;
 }
 
