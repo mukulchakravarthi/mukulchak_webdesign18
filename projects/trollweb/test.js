@@ -5,28 +5,28 @@
       filter: ""
     }, { 
       name: "Blur",
-      filter: "blur(3px)"
+      filter: "blur(9px)"
     }, { 
       name: "BnW",
-      filter: "grayscale(100%)" 
+      filter: "grayscale(500%)" 
     }, { 
       name: "Bright",
-      filter: "brightness(300%)"
+      filter: "brightness(600%)"
     },{
       name: "Hue",
       filter: "hue-rotate(90deg)"
     },{
-      name: "Invert",
+      name: "*Invert",
       filter: "invert(100%)"
     },{
       name: "Saturate",
-      filter: "saturate(800%)"
+      filter: "saturate(1000%)"
     },{
       name: "Sepia",
-      filter: "sepia(400%)"
+      filter: "sepia(900%)"
     },{
       name: "Contrast",
-      filter: "contrast(500%)"
+      filter: "contrast(900%)"
     }];
           
     var video = document.getElementById('video');

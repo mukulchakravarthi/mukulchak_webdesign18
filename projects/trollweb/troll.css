@@ -59,6 +59,13 @@ body, button {
   flex-direction: row;
   flex-wrap: wrap;
 }
+#disclaimer{
+  color:grey;
+  font-size: 10px;
+  position:relative;
+  top:-65px;
+  left:-38px;
+}
 
 li {
   margin-left: -20px;
@@ -94,10 +101,12 @@ button.disabled {
 #startButton{
   position:relative;
   left:-20px;
+  top:10px;
 }
 #photoButton{
   position:relative;
   left:-20px;
+  top:-15px;
 }
 
 
