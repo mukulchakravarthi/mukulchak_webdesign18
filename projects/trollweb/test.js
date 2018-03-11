@@ -59,8 +59,8 @@
           audio: false,  
           video: {
             mandatory: {
-              maxWidth: 320,
-              maxHeight: 240
+              maxWidth: 640,
+              maxHeight: 480
             }
           }
         }, 
