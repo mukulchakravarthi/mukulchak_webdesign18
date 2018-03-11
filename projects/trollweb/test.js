@@ -77,7 +77,7 @@
         var element = document.createElement("img");
         element.src = canvas.toDataURL();
         var angle = getRandomNumberWithMax(30) - 15;
-        element.style.transform="rotate(" + angle + "deg)";
+        //element.style.transform="rotate(" + angle + "deg)";//
         element.style.top = getRandomNumberWithMax(50) + "px";
         element.style.left = getRandomNumberWithMax(50) + "px"; 
         element.style.zIndex = z;
