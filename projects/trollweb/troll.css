@@ -1,9 +1,40 @@
 body {
   background-color: black;
 }
+
+.headingcont{
+  font-family: 'helvetica', sans-serif;
+  position:relative;
+  margin:30px;
+  width:400px;
+  z-index: 999;
+  top:20px;
+}
+
+#head, h1{
+  color:black;
+  text-align: center;
+  background:white;
+}
+
+#head{
+  border: 1px solid white;
+  
+}
+
+#subhead h4{
+  color:blue;
+  left:20px;
+  top:-40px;
+}
+h4{
+  position:relative;
+  top:-20px;
+  font-size:small;
+}
 body, button {
   font-family: 'helvetica', sans-serif;
-  font-size: small;
+  font-size: large;
   font-weight: bold;
 }
     
@@ -17,8 +48,10 @@ body, button {
 }
     
 .margin {
-  margin: 10px;
+  margin: 30px;
   width: 300px;
+  position:relative;
+  left:20px;
 }
     
 #filterButtons {
@@ -32,22 +65,21 @@ li {
 }
     
 button {
-  padding: 3px;
+  padding: 1px;
   margin-right: 8px;
   margin-bottom: 8px;
   color: white;
-  background-color: #6496c8;
+  background-color: black;
   border: none;
-  border-radius: 2px;
-  box-shadow: 1px 5px #27496d;
+
 }
 button:hover,
 button.hover {
-  background-color: #417cb8
+  background-color: red;
 }
 button:active,
 button.active {
-  background-color: #417cb8;
+  background-color: blue;
   box-shadow: 0 3px #27496d;
   transform: translateY(2px) translateX(1px);
 }    
@@ -58,22 +90,32 @@ button.disabled {
   box-shadow: 0 3px #27496d;
   transform: translateY(2px) translateX(1px);
 }
+
+#startButton{
+  position:relative;
+  left:-20px;
+}
+#photoButton{
+  position:relative;
+  left:-20px;
+}
+
+
 .photo {
-  box-shadow: 3px 3px 3px #888888;
+  
   position: absolute;
   top: 0;
   left: 0;
   margin: 30px;
   padding: 12px;
-  background-color: white;
+  background-color: black;
   cursor: move;   
   transition:all 0.5s;
-  z-index: 999;
 }
 
 .0000photo:hover {
   position: absolute;
-  -webkit-transform: translateY(-1px) translateX(-1px) rotate(0deg) scale(1.5);
+  -webkit-transform: translateY(0px) translateX(0px) rotate(0deg) scale(1.5);
   z-index: 999;
   box-shadow: 15px 15px 30px #666;
 }
