@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: blue;
 }
 
 .headingcont{
@@ -41,7 +41,7 @@ body, button {
 .playground {
   position: fixed;
   top: 0;
-  left: 340px;
+  left: 400px;
   bottom: 0;
   right: 0;
   border: 8px solid black;
@@ -109,7 +109,9 @@ button.disabled {
   top:-15px;
 }
 
-
+ol{
+  list-style: none;
+}
 .photo {
   
   position: absolute;
