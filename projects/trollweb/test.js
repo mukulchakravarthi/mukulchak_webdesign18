@@ -73,7 +73,7 @@
       }
       
       function takePhoto() {
-        canvasContext.drawImage(video, 0, 0, 320, 240);
+        canvasContext.drawImage(video, 0, 0, 720);
         var element = document.createElement("img");
         element.src = canvas.toDataURL();
         var angle = getRandomNumberWithMax(30) - 15;
