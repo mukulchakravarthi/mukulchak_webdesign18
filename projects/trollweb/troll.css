@@ -123,6 +123,14 @@ ol{
   cursor: move;   
   transition:all 0.5s;
 }
+.name {
+  color: black;
+  font-size: 10px;
+  font-weight: 700;
+  z-index: 999;
+  position: relative;
+  left:300px;
+}
 
 .0000photo:hover {
   position: absolute;

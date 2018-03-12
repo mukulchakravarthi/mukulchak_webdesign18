@@ -11,7 +11,7 @@
       filter: "grayscale(500%)" 
     }, { 
       name: "Bright",
-      filter: "brightness(600%)"
+      filter: "brightness(1000%)"
     },{
       name: "Hue",
       filter: "hue-rotate(90deg)"
@@ -59,8 +59,8 @@
           audio: false,  
           video: {
             mandatory: {
-              maxWidth: 1920,
-              maxHeight: 1080
+              maxWidth: 320,
+              maxHeight: 240
             }
           }
         }, 
@@ -177,3 +177,20 @@
       alert("Sorry, you can't capture video from your webcam in this web browser. Try the latest desktop version of Firefox, Chrome or Opera.");
     }
   })();
+
+  $(document).ready(function(){
+
+regionPrefix = ["Autumn", "Ash", "Birch", "Century", "Cherry", "Cress", "Elm", "Fern", "Fair", "Ficus", "Gale", "Green", "Harmony", "Heritage", "Hickory", "Magnolia", "Maple", "Oak", "Old", "Pebble", "Placid", "Pleasant", "Red", "Rocky", "Rolling", "Rose", "Sleepy", "Stony", "Sunny", "Sycamore", "Tranquil", "Walnut", "Willow", "Whispering", "Winding"];
+
+regionSuffix = ["Acres", "Bluff", "Brook", "Canyon", "Commons", "Chase", "Creek", "Crossing", "Estates", "Gardens", "Glen", "Greens", "Grove", "Heights", "Hill", "Knolls", "Meadow", "Mill", "Park", "Place", "Plains", "Point", "Ridge", "Rock", "Run", "Terrace", "View", "Way", "Woods"];
+
+function generateName(){
+  var randomPrefix = Math.floor(Math.random() * (regionPrefix.length));
+  var randomSuffix = Math.floor(Math.random() * (regionSuffix.length));
+  
+  $('.region-name').text('' + regionPrefix[randomPrefix] + " " + regionSuffix[randomSuffix])
+}
+  
+$('.generate-btn').click(generateName);
+  
+});
