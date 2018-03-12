@@ -127,7 +127,7 @@ ol{
   color: black;
   font-size: 10px;
   font-weight: 700;
-  z-index: 999;
+  z-index: 1000;
   position: relative;
   left:300px;
 }
