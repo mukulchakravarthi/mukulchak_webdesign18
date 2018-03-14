@@ -191,8 +191,6 @@
     'ci',
     'mar',
     'cus'
-    'biggus'
-    'dickus'
   ],
   'lang_skyrim_male': [
     'fa',
@@ -202,8 +200,6 @@
     'kas',
     'sin',
     'ding'
-    'fu'
-    'king'
   ]
 };
 
