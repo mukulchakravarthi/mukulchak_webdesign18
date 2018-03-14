@@ -59,8 +59,8 @@
           audio: false,  
           video: {
             mandatory: {
-              maxWidth: 320,
-              maxHeight: 240
+              maxWidth: 640,
+              maxHeight: 480
             }
           }
         }, 
@@ -73,7 +73,7 @@
       }
       
       function takePhoto() {
-        canvasContext.drawImage(video, 0, 0, 320, 240);
+        canvasContext.drawImage(video, 0, 0, 640, 480);
         var element = document.createElement("img");
         element.src = canvas.toDataURL();
         //var angle = getRandomNumberWithMax(30) - 15;
