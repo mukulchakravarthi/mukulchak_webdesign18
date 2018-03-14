@@ -1,31 +1,39 @@
 body {
-  background-color: blue;
+  background-color: black;
 }
 
 .headingcont{
-  font-family: 'helvetica', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   position:relative;
-  margin:30px;
+  margin:20px;
   width:400px;
   z-index: 999;
   top:20px;
 }
 
 #head, h1{
-  color:black;
+  color:white;
   text-align: center;
-  background:white;
+  font-size: 5vw;
+  width:1000px;
+}
+h1{
+  position: relative;
+  left:-30px;
+}
+#line1{
+  background-color:white;
+  height:5px;
+  width:1800px;
+  position:relative;
+  top:-50px;
 }
 
-#head{
-  border: 1px solid white;
-  
-}
 
 #subhead h4{
-  color:blue;
-  left:20px;
-  top:-40px;
+  color:red;
+  left:30px;
+  top:-50px;
 }
 h4{
   position:relative;
@@ -33,10 +41,28 @@ h4{
   font-size:small;
 }
 body, button {
-  font-family: 'helvetica', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: large;
   font-weight: bold;
 }
+
+.step1{
+  position: relative;
+  left:500px;
+  color:white;
+  font-weight: bolder;
+  width:230px;
+  padding-left:5px;
+  border: 1px solid blue;
+  }
+  #video{
+    position: relative;
+    left:500px;
+  }
+  #canvas{
+    position: relative;
+    left:500px;
+  }
     
 .playground {
   position: fixed;
@@ -47,10 +73,10 @@ body, button {
 }
     
 .margin {
-  margin: 30px;
+  
   width: 300px;
   position:relative;
-  left:20px;
+  left:500px;
 }
     
 #filterButtons {
@@ -59,7 +85,7 @@ body, button {
   flex-wrap: wrap;
 }
 #disclaimer{
-  color:grey;
+  color:yellow;
   font-size: 10px;
   position:relative;
   top:-65px;
@@ -77,6 +103,7 @@ button {
   color: white;
   background-color: black;
   border: none;
+  padding:2px;
 
 }
 button:hover,
@@ -122,13 +149,31 @@ ol{
   cursor: move;   
   transition:all 0.5s;
 }
-.name {
-  color: black;
-  font-size: 10px;
-  font-weight: 700;
-  z-index: 1000;
+.step2{
   position: relative;
-  left:300px;
+  left:500px;
+  color:white;
+  font-weight: bolder;
+  width:230px;
+  padding-left:5px;
+  border: 1px solid blue;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.acgenerate{
+  position: relative;
+  top:30px;
+  left:500px;
+}
+
+#selection_lang{
+  font-family: 'Roboto Mono', monospace;
+  font-size:1vw;
+  position: relative;
+}
+#n_output{
+  font-family: 'Roboto Mono', monospace;
+  color:white;
 }
 
 .0000photo:hover {

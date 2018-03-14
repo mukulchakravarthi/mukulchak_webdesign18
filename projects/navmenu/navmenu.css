@@ -10,7 +10,11 @@ body{
   margin:20px;
   z-index: 3;
 }
-
+.name {
+  color: #333;
+  font-size: 50px;
+  font-weight: 700;
+}
 
 .heading{
   font-family: "Helvetica", sans-serif;

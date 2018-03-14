@@ -6,19 +6,20 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <title>Troll</title>
   <link href="troll.css" rel="stylesheet" type="text/css">
   
 </head>
 
   <body>
-    <h1 class="region-name">Get Ready to Generate</h1>
-  <button type="button" class="generate-btn">Generate Name</button>
-
     <div class="headingcont">
       <div id="head"><h1>[CON]TROLL TOWER</h1></div>
+      <div id="line1"></div>
       <div id="subhead"><h4>Building Anonymity</h4></div>
     </div>
+
+    <div class="step1"><p>Step One: Visual ID</p></div>
 
     <video id="video" width="320" height="240" class="margin"></video>
   <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
@@ -33,8 +34,20 @@
       <p id="disclaimer">*We highly recommend the invert option</p> 
       <li><button id="photoButton">Take photo</button></li>
     </ol>
+  </div><!--end of margin class-->
 
-  </div>
+    <div class="step2"><p>Step Two: Username</p></div>
+    <div class="acgenerate">
+     <select id="selection_lang">
+      <option value="lang_roman_male">Roman</option>
+      <option value="lang_skyrim_male">Skyrim</option>
+    </select>
+    
+    <button onclick="generate()">Generate</button>
+    <p id="n_output"></p>
+  </div><!--End of acgenerate class-->
+
+  
   <script type="text/javascript" src="test.js"></script>
   
 

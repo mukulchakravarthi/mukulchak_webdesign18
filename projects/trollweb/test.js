@@ -178,19 +178,65 @@
     }
   })();
 
-  $(document).ready(function(){
+  var names = {
+  'lang_roman_male': [
+    'a',
+    'ppi',
+    'us',
+    'au',
+    'lus',
+    'ga',
+    'ius',
+    'lu',
+    'ci',
+    'mar',
+    'cus'
+  ],
+  'lang_skyrim_male': [
+    'fa',
+    'li',
+    'on',
+    'far',
+    'kas',
+    'sin',
+    'ding'
+  ]
+};
 
-regionPrefix = ["Autumn", "Ash", "Birch", "Century", "Cherry", "Cress", "Elm", "Fern", "Fair", "Ficus", "Gale", "Green", "Harmony", "Heritage", "Hickory", "Magnolia", "Maple", "Oak", "Old", "Pebble", "Placid", "Pleasant", "Red", "Rocky", "Rolling", "Rose", "Sleepy", "Stony", "Sunny", "Sycamore", "Tranquil", "Walnut", "Willow", "Whispering", "Winding"];
+var dropdown = document.getElementById("selection_lang");
+var selection = dropdown.options[dropdown.selectedIndex].value;
 
-regionSuffix = ["Acres", "Bluff", "Brook", "Canyon", "Commons", "Chase", "Creek", "Crossing", "Estates", "Gardens", "Glen", "Greens", "Grove", "Heights", "Hill", "Knolls", "Meadow", "Mill", "Park", "Place", "Plains", "Point", "Ridge", "Rock", "Run", "Terrace", "View", "Way", "Woods"];
+var syllableCount = 0;
+var name = '';
+var tmp = '';
 
-function generateName(){
-  var randomPrefix = Math.floor(Math.random() * (regionPrefix.length));
-  var randomSuffix = Math.floor(Math.random() * (regionSuffix.length));
+function generate() {
+  name = '';
   
-  $('.region-name').text('' + regionPrefix[randomPrefix] + " " + regionSuffix[randomSuffix])
+  names[selection].sort(function(a, b) {
+    return 0.5 - Math.random()
+  });
+  
+  syllableCount = Math.floor((Math.random() * 4) + 2);
+  
+  for (var i = 0; i < syllableCount; i++) {
+    name += names[selection][i];
+    tmp = '';
+  }
+  
+  name = name.charAt(0).toUpperCase() + name.substr(1, name.length);
+  
+  n_output.innerHTML = name + '<br>' + getFactorial(names[selection].length) / getFactorial(names[selection].length - syllableCount);
+  syllableCount = 0;
 }
+
+function getFactorial(n) {
+    var r = 1;
+    for (var i = 2; i <= n; i++)
+        r = r * i;
+    return r;
+}
+
   
-$('.generate-btn').click(generateName);
+
   
-});
