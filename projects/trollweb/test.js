@@ -8,7 +8,7 @@
       filter: "blur(9px)"
     }, { 
       name: "BnW",
-      filter: "grayscale(500%)" 
+      filter: "grayscale(1000%)" 
     }, { 
       name: "Bright",
       filter: "brightness(1000%)"
@@ -20,13 +20,13 @@
       filter: "invert(100%)"
     },{
       name: "Saturate",
-      filter: "saturate(1000%)"
+      filter: "saturate(2000%)"
     },{
       name: "Sepia",
-      filter: "sepia(900%)"
+      filter: "sepia(1800%)"
     },{
       name: "Contrast",
-      filter: "contrast(900%)"
+      filter: "contrast(1200%)"
     }];
           
     var video = document.getElementById('video');
