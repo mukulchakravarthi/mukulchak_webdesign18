@@ -59,8 +59,8 @@
           audio: false,  
           video: {
             mandatory: {
-              maxWidth: 640,
-              maxHeight: 480
+              maxWidth: 320,
+              maxHeight: 240
             }
           }
         }, 
@@ -191,6 +191,8 @@
     'ci',
     'mar',
     'cus'
+    'biggus'
+    'dickus'
   ],
   'lang_skyrim_male': [
     'fa',
@@ -200,6 +202,8 @@
     'kas',
     'sin',
     'ding'
+    'fu'
+    'king'
   ]
 };
 
