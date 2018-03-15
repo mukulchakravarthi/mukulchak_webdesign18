@@ -1,5 +1,7 @@
 body {
-  background-color: black;
+  background: linear-gradient(red, yellow);
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 .headingcont{
@@ -12,26 +14,44 @@ body {
 }
 
 #head, h1{
-  color:white;
+  color:black;
   text-align: center;
   font-size: 5vw;
   width:1000px;
+  text-decoration: none;
+}
+#head a{
+text-decoration: none;
 }
 h1{
   position: relative;
   left:-30px;
 }
+h1 a{
+  color:white;
+}
+#head a:hover,
+#head a.hover {
+  background-color: blue;
+}
+#head a:active,
+#head a.active {
+  background-color: green;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+} 
 #line1{
   background-color:white;
   height:5px;
   width:1800px;
   position:relative;
   top:-50px;
+  left:30px;
 }
 
 
 #subhead h4{
-  color:red;
+  color:blue;
   left:30px;
   top:-50px;
 }
@@ -49,11 +69,11 @@ body, button {
 .step1{
   position: relative;
   left:500px;
-  color:white;
+  color:black;
   font-weight: bolder;
   width:230px;
   padding-left:5px;
-  border: 1px solid blue;
+  border: 2px solid blue;
   }
   #video{
     position: relative;
@@ -85,7 +105,7 @@ body, button {
   flex-wrap: wrap;
 }
 #disclaimer{
-  color:yellow;
+  color:blue;
   font-size: 10px;
   position:relative;
   top:-65px;
@@ -148,15 +168,16 @@ ol{
   background-color: black;
   cursor: move;   
   transition:all 0.5s;
+  background:red;
 }
 .step2{
   position: relative;
   left:500px;
-  color:white;
+  color:black;
   font-weight: bolder;
   width:230px;
   padding-left:5px;
-  border: 1px solid blue;
+  border: 2px solid blue;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -175,6 +196,98 @@ ol{
   font-family: 'Roboto Mono', monospace;
   color:white;
 }
+.step3{
+  position: relative;
+  left:500px;
+  top:60px;
+  color:black;
+  font-weight: bolder;
+  width:230px;
+  padding-left:5px;
+  border: 2px solid blue;
+  font-family: 'Roboto Mono', monospace;
+}
+.password{
+  position: relative;
+  left:500px;
+  top:80px;
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 100px;
+}
+#selection_pass{
+  font-family: 'Roboto Mono', monospace;
+  font-size:1vw;
+  position: relative;
+} 
+
+#button{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1vw;
+  background:black;
+  color:white;
+  border-style: none;
+  width:92px;
+}
+#button:hover,
+#button.hover {
+  background-color: red;
+}
+#button:active,
+#button.active {
+  background-color: blue;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+}
+
+#text{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1vw;
+  width:110px;
+  border-radius: 6px;
+}
+.pvalues{
+  font-family: 'Roboto Mono', monospace;
+}
+#generate{
+  font-family: 'Roboto Mono', monospace;
+}
+.step4{
+  position: relative;
+  left:500px;
+  top:30px;
+  color:black;
+  font-weight: bolder;
+  width:230px;
+  padding-left:5px;
+  border: 2px solid blue;
+  font-family: 'Roboto Mono', monospace;
+}
+.platform li{
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+  left:500px;
+  color:black;
+  top:30px;
+}
+.platform ul{
+  list-style: none;
+}
+
+#smedia a{
+  color:black;
+}
+
+#smedia a:hover,
+#smedia a.hover {
+  background-color: red;
+}
+#smedia a:active,
+#smedia a.active {
+  background-color: blue;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+}    
+
 
 .0000photo:hover {
   position: absolute;
