@@ -301,18 +301,51 @@ ol{
 .trending{
   display:flex;
   font-family: 'Roboto Mono', monospace;
-  position:fixed;
-  left:60px;
+  position:absolute;
+  left:55px;
 }  
+#trends{
+  color:blue;}
+
+.news{
+  padding-bottom: 100px;
+}
 .line3{
-  position: fixed;
+  position: absolute;
   background: black;
   width:200px;
   height:1px;
-  left:60px;
-  top:335px;
-
+  left:0px;
+  top:20px;
 }
+.news li{
+  font-size: 16px;
+  font-weight: bold;
+  padding:px;
+  list-style: none;
+  margin-left:-205px;
+  margin-top:20px;
+}
+.news p{
+  font-size: 11px;
+  width:250px;
+  color:white;
+  font-weight: lighter;
+}
+.news a{
+  text-decoration: none;
+  color:black;
+}
+.news a:hover,
+.news a.hover {
+  background-color: blue;
+}
+.news a:active,
+.news a.active {
+  background-color: green;
+  box-shadow: 0 3px #27496d;
+  transform: translateY(2px) translateX(1px);
+}  
 
 
 .0000photo:hover {
