@@ -78,10 +78,12 @@ body, button {
   #video{
     position: relative;
     left:500px;
+    z-index: 999;
   }
   #canvas{
     position: relative;
     left:500px;
+    z-index: 999;
   }
     
 .playground {
@@ -90,6 +92,7 @@ body, button {
   left: 400px;
   bottom: 0;
   right: 0;
+  z-index: 999;
 }
     
 .margin {
@@ -168,7 +171,7 @@ ol{
   background-color: black;
   cursor: move;   
   transition:all 0.5s;
-  background:red;
+
 }
 .step2{
   position: relative;
